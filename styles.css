@@ -1,0 +1,201 @@
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #ffffff;
+    padding: 1rem 0;
+  }
+  
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 40px; /* Adjust based on your logo size */
+  }
+  
+  .nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-weight: 500;
+  }
+  
+  .nav a:hover {
+    color: #4109dd;
+  }
+  
+  /* Hero Section */
+  .hero {
+    height: 100vh;
+    background: linear-gradient(0deg, #181818, #000000);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .btn-primary, .btn-secondary {
+    padding: 0.75rem 2rem;
+    border-radius: 9999px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary {
+    background-color: #000000;
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #4109dd;
+  }
+  
+  .btn-secondary {
+    background-color: #000000;
+    color: white;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #4109dd;
+  }
+  
+  /* Services Section */
+  .services {
+    padding: 4rem 0;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  .service-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .card {
+    background-color: #F5F5F5;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Style for FontAwesome icons */
+.services .card i {
+    font-size: 1em; /* Adjust icon size */
+    margin-right: 0.01em; /* Add spacing between icon and text */
+    color: #000000; /* Icon color */
+  }
+  
+  /* Hover effect for icons */
+  .services .card i:hover {
+    color: #4109dd; /* Change color on hover */
+  }
+
+  /* Contact Section */
+  .contact {
+    padding: 4rem 0;
+    background-color: #F5F5F5;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .contact p {
+    font-size: 1.125rem;
+    color: #666;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .contact-form button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #4109dd;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 2rem 0;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+  }
